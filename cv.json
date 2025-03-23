@@ -1,180 +1,120 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
+    "name": "Gaétan Gnim Amah",
+    "label": "Ingénieur Logiciel & Données en Formation",
+    "image": "me_avatar.png",
+    "email": "gaetan.amah@reseau.eseo.fr",
+    "phone": "+33 07 44 71 07 52",
+    "url": "https://www.linkedin.com/in/ga%C3%A9tan-amah-080080285",
+    "summary": "Junior Full Stack Developer** passionate about web application development and solving technical problems. I have skills in both front-end and back-end technologies including Java, Spring Boot, JavaScript, and databases.\n\nI'm looking for a professionalization contract in software development or data analysis starting September 2025. I want to join a dynamic team where I can continue learning and contribute to innovative projects.",
+    "theme": "blue",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "49100",
+      "city": "Angers",
+      "countryCode": "FR",
+      "region": "France"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "gaetan-amah-080080285",
+        "url": "https://www.linkedin.com/in/ga%C3%A9tan-amah-080080285"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "GaetanG2",
+        "url": "https://github.com/GaetanG2/"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "KU Leuven, Bruges Campus, Belgium",
+      "position": "Intern in embedded systems and IoT development",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "location": "Bruges, Belgium",
+      "url": "https://www.kuleuven.be/english/bruges",
+      "startDate": "2024-07",
+      "endDate": "2024-11",
+      "summary": "Development of an application for controlling and visualizing data from the Smart Plate, with a graphical interface to facilitate parameter management and real-time data monitoring.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Created the first desktop application to communicate with the existing prototype, which previously only had MATLAB code",
+        "Developed a web app and converted it into a desktop application, establishing communication channels and enabling data collection and management"
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Independently developed a functional application to control and monitor the Smart Plate prototype",
+        "Collaborated with the research department of KU Leuven, with guidance from my supervisor (a researcher in the department)",
+        "Set up communication channels between the Smart Plate prototype and the newly developed application",
+        "Integrated real-time data monitoring features and graphical interface for easier parameter management"
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Provided a fully functional, scalable desktop application ready for use, although deployment was not required as it was part of a research project"
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
+        "NodeJs",
+        "ExpressJS",
+        "Electron",
+        "GitHub",
+        "JavaScript",
         "HTML",
         "CSS"
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
+
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
+      "institution": "ESEO - École Supérieure d'Électronique de l'Ouest, Angers",
+      "url": "https://www.eseo.fr/",
       "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
+      "studyType": "Engineering Degree",
+      "startDate": "2023-09-01",
+      "endDate": "2026-09",
+      "score": "5",
       "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
+        "Projet InfraLogiciel : Développement d’une banque en ligne (Java, API, Web, Base de données)",
+        "FallingBlox : Conception d’un jeu inspiré de Tetris en Java avec tests JUnit",
+        "Projet Web & Données : Création d’un réseau social simulé (MySQL, PHPMyAdmin, HTML, CSS, JavaScript)",
+        "Projet API REST : Création d’un serveur sécurisé en Java avec Spring Boot et Maven, connecté à une base de données"
       ]
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
+      "institution": "Prépa ESEO-COURS LUMIERE, Lomé",
+      "url": "https://www.courslumiere.org/prepaeseocl/",
+      "area": "Engineering",
+      "studyType": "license",
+      "startDate": "2021",
+      "endDate": "2023",
+      "score": "5",
+      "courses": [
+        "Computer Science Course (Object-Oriented Programming)",
+        "Library Management Software Development Project"
+      ]
+    },
+    {
+      "institution": "Collège Saint Joseph",
+      "url": "https://fr.wikipedia.org/wiki/Coll%C3%A8ge_Saint-Joseph_de_Lom%C3%A9",
+      "area": "Mathématics, Sciences Physics",
+      "studyType": "Scientific Baccalaureate",
       "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
+      "endDate": "2021-07-01",
+      "score": "4",
       "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
+
       ]
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Mooc GdP",
+      "date": "2023-10",
+      "issuer": "",
+      "url": "",
+      "id": "b423e4fa59744001b549e5ad6d9b5fc9"
     }
   ],
   "skills": [
-    {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
-    },
     {
       "name": "Gitlab",
       "level": "Intermediate",
@@ -209,16 +149,6 @@
         "Frontend",
         "Backend",
         "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
       ]
     },
     {
@@ -271,35 +201,64 @@
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Beginner",
+      "name": "sql",
+      "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
+        "Databases",
+        "Data Storage",
+        "Query Language",
+        "Relational Databases"
       ]
     },
     {
-      "name": "React",
+      "name": "SpringBoot",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "Backend",
+        "Java Framework",
+        "MVC",
+        "RESTful"
+      ]
+    },
+    {
+      "name": "Maven",
+      "level": "Intermediate",
+      "keywords": [
+        "Build Automation",
+        "Dependency Management",
+        "Java",
+        "Project Management"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Object-Oriented Programming",
+        "JVM",
+        "Android"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Intermediate"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "French",
+      "fluency": "Native speaker"
     }
   ],
   "interests": [
@@ -307,58 +266,61 @@
       "name": "Technology",
       "keywords": [
         "AI",
-        "Blockchain"
+        "Software"
+      ]
+    },{
+      "name": "centers of interest",
+      "keywords": [
+        "Football (3 years old)",
+        "Basketball (4 years old)",
+        "Reading"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
-    }
+  "qualities": [
+    "Rigor", "Adaptability", "Team spirit"
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
+      "name": "InfraLogiciel Project",
       "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "description": "Development of an online bank with a Java application for internal management, a website for customers and a common API connected to a single database.",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
+        "Developed with Java and Spring Boot",
+        "Implemented a REST API connected to a SQL database",
+        "Created a user interface for clients and administrators."
+      ]},
     {
-      "name": "Weather App",
-      "isActive": true,
-      "description": "A web application that provides weather information for any location.",
-      "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
-      ],
-      "url": "https://weatherapp.com"
-    },
-    {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "E-commerce Site",
+      "name": "FallingBlox",
       "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "Design of a Tetris-inspired game in Java, integrating automated tests with JUnit.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Developed in Java with an object-oriented architecture",
+        "Implemented unit tests with JUnit",
+        "Collision management and Tetris-inspired game mechanics."
       ],
-      "url": "https://ecommerce.com"
+      "github": "https://github.com/GaetanG2/"
+    },
+    {
+      "name": "Web & Data Project",
+      "isActive": false,
+      "description": "Creation of a simulated social network with a MySQL database, a web interface and management via PHPMyAdmin.",
+      "highlights": [
+        "Back-end development with MySQL and PHP",
+        "Creating a web interface with HTML, CSS and JavaScript",
+        "Data management and modeling via PHPMyAdmin"
+      ]
+    },
+    {
+      "name": "REST API Project",
+      "isActive": false,
+      "description": "Creation of a secure server in Java with Spring Boot and Maven, connected to a database.",
+      "highlights": [
+        "Implementing a Secure REST API with Spring Boot",
+        "Request Management and User Authentication",
+        "Integration with a Relational SQL Database"
+      ],
+      "url": "https://github.com/GaetanG2/"
     }
   ]
 }
