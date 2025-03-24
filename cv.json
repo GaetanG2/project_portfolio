@@ -71,12 +71,12 @@
       "studyType": "Engineering Degree",
       "startDate": "2023-09-01",
       "endDate": "2026-09",
-      "score": "5",
+      "score": "",
       "courses": [
-        "Projet InfraLogiciel : Développement d’une banque en ligne (Java, API, Web, Base de données)",
-        "FallingBlox : Conception d’un jeu inspiré de Tetris en Java avec tests JUnit",
-        "Projet Web & Données : Création d’un réseau social simulé (MySQL, PHPMyAdmin, HTML, CSS, JavaScript)",
-        "Projet API REST : Création d’un serveur sécurisé en Java avec Spring Boot et Maven, connecté à une base de données"
+        "InfraLogiciel Project : Development of an online bank (Java, API, Web, Database)",
+        "FallingBlox : Design of a Tetris-inspired game in Java with JUnit tests",
+        "Web & Data Project : Creation of a simulated social network (MySQL, PHPMyAdmin, HTML, CSS, JavaScript)",
+        "REST API Project : Development of a secure server in Java with Spring Boot and Maven, connected to a database"
       ]
     },
     {
@@ -86,7 +86,7 @@
       "studyType": "license",
       "startDate": "2021",
       "endDate": "2023",
-      "score": "5",
+      "score": "",
       "courses": [
         "Computer Science Course (Object-Oriented Programming)",
         "Library Management Software Development Project"
@@ -95,11 +95,11 @@
     {
       "institution": "Collège Saint Joseph",
       "url": "https://fr.wikipedia.org/wiki/Coll%C3%A8ge_Saint-Joseph_de_Lom%C3%A9",
-      "area": "Mathématics, Sciences Physics",
+      "area": "Mathematics, Physics Sciences",
       "studyType": "Scientific Baccalaureate",
       "startDate": "2020-09-01",
       "endDate": "2021-07-01",
-      "score": "4",
+      "score": "",
       "courses": [
 
       ]
@@ -112,6 +112,20 @@
       "issuer": "",
       "url": "",
       "id": "b423e4fa59744001b549e5ad6d9b5fc9"
+    },
+    {
+      "name": "Prévention Sup'- Le serious game en santé et sécurité au travail",
+      "date": "2025-01",
+      "issuer": "",
+      "url": "",
+      "id": ""
+    },
+    {
+      "name": "Certification Voltaire",
+      "date": "2024-06",
+      "issuer": "",
+      "url": "",
+      "id": ""
     }
   ],
   "skills": [
@@ -286,7 +300,7 @@
       "isActive": false,
       "description": "Development of an online bank with a Java application for internal management, a website for customers and a common API connected to a single database.",
       "highlights": [
-        "Developed with Java and Spring Boot",
+        "Developed with Java, Spring, Javascript, Html, Css",
         "Implemented a REST API connected to a SQL database",
         "Created a user interface for clients and administrators."
       ]},
