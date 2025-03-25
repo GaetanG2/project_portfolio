@@ -6,7 +6,7 @@
     "email": "gaetan.amah@reseau.eseo.fr",
     "phone": "+33 07 44 71 07 52",
     "url": "https://www.linkedin.com/in/ga%C3%A9tan-amah-080080285",
-    "summary": "Junior Full Stack Developer** passionate about web application development and solving technical problems. I have skills in both front-end and back-end technologies including Java, Spring Boot, JavaScript, and databases.\n\nI'm looking for a professionalization contract in software development or data analysis starting September 2025. I want to join a dynamic team where I can continue learning and contribute to innovative projects.",
+    "summary": "Junior Full Stack Developer passionate about web application development and solving technical problems. I have skills in both front-end and back-end technologies including Java, Spring Boot, JavaScript, and databases.\n\nI'm looking for a professionalization contract in software development or data analysis starting September 2025. I want to join a dynamic team where I can continue learning and contribute to innovative projects.",
     "theme": "blue",
     "location": {
       "address": "",
@@ -35,8 +35,8 @@
       "location_type": "On site",
       "location": "Bruges, Belgium",
       "url": "https://www.kuleuven.be/english/bruges",
-      "startDate": "2024-07",
-      "endDate": "2024-11",
+      "startDate": "2024-07-29",
+      "endDate": "2024-11-18",
       "summary": "Development of an application for controlling and visualizing data from the Smart Plate, with a graphical interface to facilitate parameter management and real-time data monitoring.",
       "highlights": [
         "Created the first desktop application to communicate with the existing prototype, which previously only had MATLAB code",
