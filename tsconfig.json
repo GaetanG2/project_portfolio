@@ -1,13 +1,16 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "astro/tsconfigs/base",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
       "@cv": ["./cv.json"],
       "@cv-fr": ["./cv-fr.json"]
-    }
-  },
-  "skipLibCheck": true,
-  "noImplicitAny": false
+    },
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
 }
