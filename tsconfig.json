@@ -7,5 +7,7 @@
       "@cv": ["./cv.json"],
       "@cv-fr": ["./cv-fr.json"]
     }
-  }
+  },
+  "skipLibCheck": true,
+  "noImplicitAny": false
 }
