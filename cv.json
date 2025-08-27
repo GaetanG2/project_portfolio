@@ -296,6 +296,18 @@
   ],
   "projects": [
     {
+      "name": "software engineering Project",
+      "isActive": false,
+      "description": "Development of a Spring-based application, integrating new features into an existing system while ensuring scalability, reliability, and stability.",
+      "highlights": [
+        "Developed backend services using Spring Boot and the Spring ecosystem",
+        "Refactored and evolved an existing system while preserving core functionalities",
+        "Collaborated in a 7-member Agile Scrum team with iterative development cycles",
+        "Coordinated project tasks and responsibilities within the team",
+        "Designed technical solutions to address real business needs",
+        "Set up continuous integration processes to enable efficient collaborative development"
+      ]},
+    {
       "name": "InfraLogiciel Project",
       "isActive": false,
       "description": "Development of an online bank with a Java application for internal management, a website for customers and a common API connected to a single database.",

@@ -1,0 +1,71 @@
+---
+import FranceFlag from '@/icons/FranceFlag.astro';
+import UKFlag from '@/icons/UKFlag.astro';
+
+// Version plus robuste
+const url = Astro.url;
+const pathname = url.pathname;
+const isFrenchPage = pathname.includes('/fr');
+
+// URLs complètes
+const baseUrl = import.meta.env.BASE_URL;
+const englishUrl = baseUrl;
+const frenchUrl = baseUrl + 'fr/';
+---
+
+<div class="language-switcher">
+  {isFrenchPage ? (
+    <a
+      href={englishUrl}
+      class="lang-link"
+      title="Switch to English"
+    >
+      <UKFlag />
+    </a>
+  ) : (
+    <a
+      href={frenchUrl}
+      class="lang-link"
+      title="Passer au français"
+    >
+      <FranceFlag />
+    </a>
+  )}
+</div>
+
+<style>
+  .language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .lang-link {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .lang-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .lang-link svg {
+    width: 24px;
+    height: 18px;
+    border-radius: 2px;
+  }
+</style>

@@ -1,24 +1,28 @@
 ---
-import { basics } from "@cv";
 import Vengeance from "@/layouts/Vengeance.astro";
+import LanguageSwitcher from '@/components/LanguageSwitcher.astro';
 
 interface Props {
 	title: string;
+	cvData: any;
 }
 
-const { title } = Astro.props;
+const { title, cvData } = Astro.props;
+const { image, summary, url, theme } = cvData.basics;
 
-const { image, summary, url, theme } = basics;
+// Détection de la langue basée sur l'URL
+const currentPath = Astro.url.pathname;
+const isFrench = currentPath.startsWith('/fr');
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={isFrench ? "fr" : "en"}>
 	<head>
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content={summary} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
 		<link rel="preload" as="image" href={image} />
 
 		<meta property="og:url" content={url} />
@@ -35,11 +39,11 @@ const { image, summary, url, theme } = basics;
 		<meta name="twitter:image" content="" />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim" />
-
 		<link rel="stylesheet" href={`${import.meta.env.BASE_URL}themes/themes.css`} />
 		<Vengeance />
 	</head>
 	<body data-theme={theme} class="relative bg-skin-fill">
+		<LanguageSwitcher />
 		<div class="absolute top-0 -z-10 h-full w-full print:hidden">
 			<div class="bg-skin-hue/10 absolute bottom-auto left-[20%] right-auto top-0 h-[200px] w-[200px] -translate-x-[30%] translate-y-[20%] rounded-full blur-[80px] invert-0 dark:bg-white/5"></div>
 		</div>

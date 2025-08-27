@@ -1,8 +1,14 @@
+
 ---
 import Section from "../Section.astro";
 
-import { education } from "@cv";
-import { certificates } from "@cv";
+interface Props {
+  className?: string;
+  cvData: any;
+}
+
+const { cvData } = Astro.props;
+const { education, certificates } = cvData;
 ---
 
 <Section className={Astro.props.className} title="Education">

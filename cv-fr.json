@@ -1,0 +1,352 @@
+{
+  "basics": {
+    "name": "Gaétan Gnim Amah",
+    "label": "Ingénieur Logiciel & Données en Formation",
+    "image": "/project_portfolio/me_avatar.png",
+    "email": "gaetan.amah@reseau.eseo.fr",
+    "phone": "+33 07 44 71 07 52",
+    "url": "https://www.linkedin.com/in/ga%C3%A9tan-amah-080080285",
+    "summary": "Développeur Full Stack junior passionné par le développement d’applications web et la résolution de problèmes techniques. Je possède des compétences en technologies front-end et back-end incluant Java, Spring Boot, JavaScript et les bases de données.\n\nJe recherche un contrat de professionnalisation en développement logiciel ou en analyse de données à partir de septembre 2025. Je souhaite rejoindre une équipe dynamique où je pourrai continuer à apprendre et contribuer à des projets innovants.",
+    "theme": "blue",
+    "location": {
+      "address": "",
+      "postalCode": "49100",
+      "city": "Angers",
+      "countryCode": "FR",
+      "region": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gaetan-amah-080080285",
+        "url": "https://www.linkedin.com/in/ga%C3%A9tan-amah-080080285"
+      },
+      {
+        "network": "GitHub",
+        "username": "GaetanG2",
+        "url": "https://github.com/GaetanG2/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "KU Leuven, Campus de Bruges, Belgique",
+      "position": "Stagiaire en systèmes embarqués et développement IoT",
+      "location_type": "Sur site",
+      "location": "Bruges, Belgique",
+      "url": "https://www.kuleuven.be/english/bruges",
+      "startDate": "2024-07-29",
+      "endDate": "2024-11-18",
+      "summary": "Développement d’une application pour le contrôle et la visualisation des données du Smart Plate, avec une interface graphique facilitant la gestion des paramètres et le suivi des données en temps réel.",
+      "highlights": [
+        "Création de la première application de bureau pour communiquer avec le prototype existant, qui ne disposait auparavant que de code MATLAB",
+        "Développement d’une application web convertie en application de bureau, établissant des canaux de communication et permettant la collecte et la gestion des données"
+      ],
+      "responsibilities": [
+        "Développement autonome d’une application fonctionnelle pour contrôler et surveiller le prototype Smart Plate",
+        "Collaboration avec le département de recherche de KU Leuven, sous la supervision de mon encadrant (chercheur du département)",
+        "Mise en place de canaux de communication entre le prototype Smart Plate et l’application nouvellement développée",
+        "Intégration de fonctionnalités de suivi en temps réel et d’une interface graphique pour une gestion plus simple des paramètres"
+      ],
+      "achievements": [
+        "Fourniture d’une application de bureau entièrement fonctionnelle et évolutive, prête à l’usage, bien que le déploiement n’ait pas été requis car il s’agissait d’un projet de recherche"
+      ],
+      "skills": [
+        "NodeJs",
+        "ExpressJS",
+        "Electron",
+        "GitHub",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "ESEO - École Supérieure d'Électronique de l'Ouest, Angers",
+      "url": "https://www.eseo.fr/",
+      "area": "Informatique",
+      "studyType": "Diplôme d’ingénieur",
+      "startDate": "2023-09-01",
+      "endDate": "2026-09",
+      "score": "",
+      "courses": [
+        "Projet InfraLogiciel : Développement d’une banque en ligne (Java, API, Web, Base de données)",
+        "FallingBlox : Conception d’un jeu inspiré de Tetris en Java avec tests JUnit",
+        "Projet Web & Data : Création d’un réseau social simulé (MySQL, PHPMyAdmin, HTML, CSS, JavaScript)",
+        "Projet API REST : Développement d’un serveur sécurisé en Java avec Spring Boot et Maven, connecté à une base de données"
+      ]
+    },
+    {
+      "institution": "Prépa ESEO-COURS LUMIERE, Lomé",
+      "url": "https://www.courslumiere.org/prepaeseocl/",
+      "area": "Ingénierie",
+      "studyType": "Licence",
+      "startDate": "2021",
+      "endDate": "2023",
+      "score": "",
+      "courses": [
+        "Cours d’informatique (Programmation orientée objet)",
+        "Projet de développement d’un logiciel de gestion de bibliothèque"
+      ]
+    },
+    {
+      "institution": "Collège Saint Joseph",
+      "url": "https://fr.wikipedia.org/wiki/Coll%C3%A8ge_Saint-Joseph_de_Lom%C3%A9",
+      "area": "Mathématiques, Sciences Physiques",
+      "studyType": "Baccalauréat Scientifique",
+      "startDate": "2020-09-01",
+      "endDate": "2021-07-01",
+      "score": "",
+      "courses": [
+
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Mooc GdP",
+      "date": "2023-10",
+      "issuer": "",
+      "url": "https://github.com/GaetanG2/project_portfolio/blob/master/public/certificates/GdP22PC-AMNkeUJvA.pdf",
+      "id": "b423e4fa59744001b549e5ad6d9b5fc9"
+    },
+    {
+      "name": "Prévention Sup' - Le serious game en santé et sécurité au travail",
+      "date": "2025-01",
+      "issuer": "",
+      "url": "https://github.com/GaetanG2/project_portfolio/blob/master/public/certificates/Attestation_de_reusssite_Prevention_Sup.pdf",
+      "id": ""
+    },
+    {
+      "name": "Certification Voltaire",
+      "date": "2024-06",
+      "issuer": "",
+      "url": "",
+      "id": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Gitlab",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Gestion de versions",
+        "Collaboration",
+        "Code source"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Frontend",
+        "Design Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Frontend",
+        "Backend",
+        "Surcouche de JavaScript"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Backend",
+        "JavaScript",
+        "Serveur"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Bases de données",
+        "SQL",
+        "Stockage de données",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Gestion de versions",
+        "Collaboration",
+        "Code source"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Gestion de versions",
+        "Collaboration",
+        "Code source",
+        "Git"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Bases de données",
+        "Stockage de données",
+        "Langage de requête",
+        "Bases relationnelles"
+      ]
+    },
+    {
+      "name": "SpringBoot",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Backend",
+        "Framework Java",
+        "MVC",
+        "RESTful"
+      ]
+    },
+    {
+      "name": "Maven",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Automatisation de build",
+        "Gestion des dépendances",
+        "Java",
+        "Gestion de projet"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Backend",
+        "Programmation orientée objet",
+        "JVM",
+        "Android"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Développement Web",
+        "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Anglais",
+      "fluency": "Intermédiaire"
+    },
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technologie",
+      "keywords": [
+        "IA",
+        "Logiciel"
+      ]
+    },{
+      "name": "Centres d’intérêt",
+      "keywords": [
+        "Football (3 ans)",
+        "Basketball (4 ans)",
+        "Lecture"
+      ]
+    }
+  ],
+  "qualities": [
+    "Rigueur", "Adaptabilité", "Esprit d’équipe"
+  ],
+  "projects": [
+    {
+      "name": "Projet de Génie Logiciel",
+      "isActive": false,
+      "description": "Développement d’une application basée sur Spring, intégrant de nouvelles fonctionnalités dans un système existant tout en garantissant évolutivité, fiabilité et stabilité.",
+      "highlights": [
+        "Développement de services backend avec Spring Boot et l’écosystème Spring",
+        "Refactorisation et évolution d’un système existant tout en préservant les fonctionnalités essentielles",
+        "Collaboration dans une équipe Agile Scrum de 7 membres avec cycles de développement itératifs",
+        "Coordination des tâches et responsabilités au sein de l’équipe",
+        "Conception de solutions techniques répondant à de réels besoins métiers",
+        "Mise en place de processus d’intégration continue pour un développement collaboratif efficace"
+      ]},
+    {
+      "name": "Projet InfraLogiciel",
+      "isActive": false,
+      "description": "Développement d’une banque en ligne avec une application Java pour la gestion interne, un site web pour les clients et une API commune connectée à une base de données unique.",
+      "highlights": [
+        "Développé avec Java, Spring, Javascript, Html, Css",
+        "Implémentation d’une API REST connectée à une base de données SQL",
+        "Création d’une interface utilisateur pour les clients et les administrateurs"
+      ]},
+    {
+      "name": "FallingBlox",
+      "isActive": false,
+      "description": "Conception d’un jeu inspiré de Tetris en Java, intégrant des tests automatisés avec JUnit.",
+      "highlights": [
+        "Développé en Java avec une architecture orientée objet",
+        "Implémentation de tests unitaires avec JUnit",
+        "Gestion des collisions et mécaniques de jeu inspirées de Tetris"
+      ],
+      "github": "https://github.com/GaetanG2/Falling_Blox"
+    },
+    {
+      "name": "Projet Web & Data",
+      "isActive": false,
+      "description": "Création d’un réseau social simulé avec une base de données MySQL, une interface web et une gestion via PHPMyAdmin.",
+      "highlights": [
+        "Développement backend avec MySQL et PHP",
+        "Création d’une interface web avec HTML, CSS et JavaScript",
+        "Gestion et modélisation des données via PHPMyAdmin"
+      ]
+    },
+    {
+      "name": "Projet API REST",
+      "isActive": false,
+      "description": "Création d’un serveur sécurisé en Java avec Spring Boot et Maven, connecté à une base de données.",
+      "highlights": [
+        "Implémentation d’une API REST sécurisée avec Spring Boot",
+        "Gestion des requêtes et authentification des utilisateurs",
+        "Intégration avec une base de données SQL relationnelle"
+      ],
+      "url": "https://github.com/GaetanG2/"
+    }
+  ]
+}

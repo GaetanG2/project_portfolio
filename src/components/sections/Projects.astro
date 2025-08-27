@@ -3,7 +3,13 @@ import Git from "@/icons/git.astro";
 import Arrow from "@/icons/Arrow.astro";
 import Section from "../Section.astro";
 
-import { projects } from "@cv";
+interface Props {
+  className?: string;
+  cvData: any;
+}
+
+const { cvData } = Astro.props;
+const { projects } = cvData;
 ---
 
 <Section className={Astro.props.className} title="Projects">

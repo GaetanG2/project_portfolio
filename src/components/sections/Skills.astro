@@ -11,7 +11,6 @@ import Git from "@/icons/git.astro";
 import GitHub from "@/icons/GitHub.astro";
 import Tailwind from "@/icons/tailwind.astro";
 import Next from "@/icons/next.astro";
-import { skills } from "@cv";
 import Swift from "@/icons/swift.astro";
 import SwiftUI from "@/icons/swiftui.astro";
 import Kotlin from "@/icons/kotlin.astro";
@@ -29,7 +28,13 @@ import Electron from "@/icons/Electron.astro";
 import ExpressJS from "@/icons/ExpressJS.astro";
 import NodeJs from "@/icons/NodeJs.astro";
 
+interface Props {
+  className?: string;
+  cvData: any;
+}
 
+const { cvData } = Astro.props;
+const { skills } = cvData;
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -58,7 +63,6 @@ const SKILLS_ICONS: Record<string, any> = {
 	Electron,
 	ExpressJS,
 	NodeJs,
-
 };
 ---
 

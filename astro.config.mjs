@@ -7,4 +7,11 @@ export default defineConfig({
   base: '/project_portfolio/',
   trailingSlash: 'always',
   integrations: [tailwind()],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "fr"],
+    routing: {
+      prefixDefaultLocale: false
+    }
+  }
 });
